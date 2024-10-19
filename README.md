@@ -1,8 +1,7 @@
 # CDS View - Purchasing report for follow-up
-Pre-requirements 📋 </br>
-- Tools used:
+**Built with:** 🛠️ </br>
 - SAP Logon
-Eclipse </br>
+- Eclipse </br>
 ## Objective and Details
 - Goal: Join evevery SAP important data from purchase area to controll and following of the purchase processes </br>
 
@@ -20,7 +19,7 @@ T16FS and T16FE – Handles release strategy and status approvals.</br>
 AUFK – Order master data.</br>
 ZCDS_HRP1000 – Custom CDS view with workflow/HR data. </br>
 
-## Summary:
+## Summary 📋:
 This CDS View is designed to generate a comprehensive report on purchase orders, including: </br></br>
 
 - Purchase item details, pricing, and status. </br>
@@ -30,7 +29,7 @@ This CDS View is designed to generate a comprehensive report on purchase orders,
 The joins with various tables ensure that all relevant data—such as materials, approvals, vendors, and order statuses—are consolidated into a single report. </br> </br>
 
 
-
+**Purchase Follow-up ABAP CDS View** ⚙️
 ```abap
 @AbapCatalog.sqlViewName: 'ZDD_WRKFLOW'
 @AbapCatalog.compiler.compareFilter: true
@@ -124,6 +123,27 @@ define view ZDD_WORKFLOW as select from
 where ekpo.creationdate > '20200101'
 ```
 
+## Assignment of a CDS View to a Transaction Code (T-Code) 
+
+### Summary 📋
+Assigning a CDS View to a transaction code allows users to access the view directly through a shortcut in SAP GUI or Fiori, simplifying navigation.
+
+**1. Steps Overview:**
+- Create a New Transaction Code (T-Code):
+
+**2. Use SE93 to create the transaction code.**
+- Link CDS View to the T-Code:
+- In SE93, select the "Program and Selection Screen" or "Report" option if the CDS is used within a report or Fiori App.
+- Alternatively, link the T-Code to an Application UI that consumes the CDS view. 
+**3. Usage:**
+- Once created, the transaction code acts as a direct entry point, simplifying access to the CDS view.
+
+**Purpose:**
+- Facilitates quick access to reports or applications based on CDS views.
+- Avoids complex menu navigation for end-users.
+- This process ensures that business users or analysts can efficiently access key data through a simple T-Code shortcut 
+
+![image](https://github.com/user-attachments/assets/cc4e7430-3d0f-41b0-ad9a-6087b397782e)
 
 
 
