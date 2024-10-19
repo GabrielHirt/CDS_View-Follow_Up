@@ -146,7 +146,7 @@ Assigning a CDS View to a transaction code allows users to access the view direc
 ![image](https://github.com/user-attachments/assets/cc4e7430-3d0f-41b0-ad9a-6087b397782e)
 
 ## Assignment an OData Service
-Would like to know how to creat a OData Service and consume inside an Excel, Power BI etc? 
+Would you like to know how to creat a OData Service and consume inside an Excel, Power BI etc? 
 
 <a href="https://github.com/GabrielHirt/CDS_View-OData_Creation/new/main?filename=README.md">Check it out!</a>
 
