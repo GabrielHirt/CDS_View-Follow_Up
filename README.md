@@ -1,5 +1,8 @@
 # CDS View - Purchasing report for follow-up
-
+Pre-requirements 📋 </br>
+- Tools used:
+- SAP Logon
+Eclipse </br>
 ## Objective and Details
 - Goal: Join evevery SAP important data from purchase area to controll and following of the purchase processes </br>
 
@@ -25,6 +28,28 @@ This CDS View is designed to generate a comprehensive report on purchase orders,
 - Quantities ordered, delivered, and yet to be invoiced. </br>
 - Approval processes, release strategies, and attachments. </br></br>
 The joins with various tables ensure that all relevant data—such as materials, approvals, vendors, and order statuses—are consolidated into a single report. </br> </br>
+```abap
+@AbapCatalog.sqlViewName: 'ZDIMENAIRLINE'
+@AbapCatalog.compiler.compareFilter: true
+@AccessControl.authorizationCheck: #CHECK
+@EndUserText.label: 'Airline'
+@Analytics.dataCategory: #DIMENSION
+
+define view Z_Dimension_Airline
+  as select from scarr
+{
+  @ObjectModel.text.element: [ 'AirlineName' ]
+  key carrid as Airline,
+
+  @Semantics.text: true
+  carrname as AirlineName,
+
+  @Semantics.currencyCode: true
+  currcode as Currency
+}
+
+
+ 
 ![image](https://github.com/user-attachments/assets/8fb4258b-73d8-45c1-919e-ab078cbecdaf)  </br>
 Access the complete code in the attached file.
 
