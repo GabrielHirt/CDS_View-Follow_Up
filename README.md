@@ -146,7 +146,8 @@ Assigning a CDS View to a transaction code allows users to access the view direc
 ![image](https://github.com/user-attachments/assets/cc4e7430-3d0f-41b0-ad9a-6087b397782e)
 
 ## Assignment an OData Service
-<a href>https://www.deepl.com/en/translator?utm_term=&utm_campaign=BR%7CPMAX%7CC%7CEnglish&utm_source=google&utm_medium=paid&hsa_acc=1083354268&hsa_cam=21569273274&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMIxPfP6JzyiAMVNmdIAB0XCj3BEAAYASAAEgKO4PD_BwE#en/pt-br/Assignment </a>
+Would like to know how to consume data inside an Excel file? 
+<a href="https://www.deepl.com/en/translator?utm_term=&utm_campaign=BR%7CPMAX%7CC%7CEnglish&utm_source=google&utm_medium=paid&hsa_acc=1083354268&hsa_cam=21569273274&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMIxPfP6JzyiAMVNmdIAB0XCj3BEAAYASAAEgKO4PD_BwE#en/pt-br/Assignment " _target_blank>Check it out!</a>
 
 <!-- -->
 
