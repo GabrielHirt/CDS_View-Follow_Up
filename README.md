@@ -1,7 +1,7 @@
 # CDS View - Purchasing report for follow-up
 **Built with:** 🛠️ </br>
 - SAP Logon
-- Eclipse </br>
+- Eclipse IDE com o plugin ADT (ABAP Development Tools) </br>
 ## Objective and Details
 - Goal: Join evevery SAP important data from purchase area to controll and following of the purchase processes </br>
 
